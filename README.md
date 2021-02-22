@@ -35,3 +35,8 @@ ilk satırda görüldüğü gibi 00001 = 5 olarak gösterdim, çünkü 00001'de 
 
 en son satıra bakarsak, 00000 binary gösteriminde hiç 1 değeri yok. yani anakümemizden çekebileceğimiz bir indexte yok. bu sebepten dolayı bu durum boş kümeyi gösterir.
 
+şimdi farklı değerlerden oluşan başka bir örnek üzerinde inceleyelim,
+burada anakümemiz {44,66,77,33,22,11,88,99} olsun, 2^8 = 256 tane alt kümesi vardır.
+
+sadece belli bir kısmı üzerinde inceleyelim,
+
