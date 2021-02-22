@@ -23,7 +23,7 @@ algoritmanın mantığında, küme kaç elemanlıysa, o kadar basamağa sahip bi
 
 ![1](https://user-images.githubusercontent.com/49997690/108646546-5519cc00-74c7-11eb-9c99-e066eea11cb3.PNG)
 
-burada 1'den 32 ye kadar tüm sayıların binary gösterimi varıdr. fakat bu gösterimde dikkat ettiysek 1 değerini 00001 olarak gösterdik. burda 00001 olarak yani 5 elemanlı olarak göstermemizin sebebi aslında ana kümemizin eleman sayısının 5 olması. Örneğin {12,13,14,15,16,17,18} kümesinde 7 eleman vardır. yani 2^7=  128 alt kümesi vardır. eğer 1 sayısını üstteki görüntüdeki gibi göstermek istersek 0000001 olarak göstermeliyiz.
+burada 1'den 32 ye kadar tüm sayıların binary gösterimi varıdr. fakat bu gösterimde dikkat ettiysek 1 değerini 00001 olarak gösterdik. burda 00001 olarak yani 5 "basamaklı" olarak göstermemizin sebebi aslında ana kümemizin eleman sayısının 5 olması. Örneğin {12,13,14,15,16,17,18} kümesinde 7 eleman vardır. yani 2^7=  128 alt kümesi vardır. eğer 1 sayısını üstteki görüntüdeki gibi göstermek istersek 0000001 olarak göstermeliyiz.
 
 peki neden böyle gösteriyoruz. sebebi ise, 00001'den 11111 e kadar olan tüm sayılarda (31 tane sayı olur. 00000 boş kümeyi gösterir. algoritmaya elbette buda dahil) 1 olan indexleri belirleyip, bu indexlerle ana kümemizden elemanları çekip alt kümeleri oluşturmak.
 
