@@ -31,7 +31,7 @@ peki neden böyle gösteriyoruz. sebebi ise, 00001'den 11111 e kadar olan tüm s
 
 ilk satırda görüldüğü gibi 00001 = 5 olarak gösterdim, çünkü 00001'de 1 olan indexler sadece 5. indextir. bizde ana kümenin 5. indexindeki değeri alıp, bundan alt küme oluşturacağız.
 
-01010 = 4,2 olarak gösterdim. sebebi ise 2. ve 4. indexin değerleri 1. ana kümemizden 2. ve 4. indexteki değerli çekip bunlarla birlikte bir alt küme oluşturacağız.
+01010 = 4,2 olarak gösterdim. sebebi ise 2. ve 4. indexin değerleri 1'dir . ana kümemizden 2. ve 4. indexteki değerli çekip bunlarla birlikte bir alt küme oluşturacağız.
 
 en son satıra bakarsak, 00000 binary gösteriminde hiç 1 değeri yok. yani ana kümemizden çekebileceğimiz bir indexte yok. bu sebepten dolayı bu durum boş kümeyi gösterir.
 
