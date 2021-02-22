@@ -19,7 +19,7 @@ Find_BinaryNumber fonksiyonuyla altküme bulma algoritmasına girebiliriz,
 
 5 elemanlı bir dizinin 32 tane alt kümesi vardır. 5 elemanlı diziden oluşabilecek alt kümelerden, herhangi bir alt kümenin eleman sayısının  olabileceği en az değer 0, en fazla 5 olur. Her kümenin boş bir alt kümesi vardır. en fazla 5 elemanlı alt kümesi ise kendisidir yani {1,2,3,4,5}.
 
-algoritmanın mantığında, küme kaç elemanlıysa, o kadar basamağa sahip binary sayıları 0 dan 2^n değerine kadar yazdırıp, binary sayılarda, değerlerin 1 olduğu indexleri belirleyip, bu indexteki değerleri ana kümeden almak var yani,
+algoritmanın mantığında, küme kaç elemanlıysa, o kadar basamağa sahip binary sayıları 0 dan 2^n değerine kadar yazdırıp, binary sayılarda, değerlerin 1 olduğu indexleri belirleyip, bu indexteki değerleri ana kümeden alıp alt küme oluşturmak var yani,
 
 ![1](https://user-images.githubusercontent.com/49997690/108646546-5519cc00-74c7-11eb-9c99-e066eea11cb3.PNG)
 
