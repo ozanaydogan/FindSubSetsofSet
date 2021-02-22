@@ -22,7 +22,7 @@ public class finder {
 			
 			binaryValues_of_SubSets = Find_BinaryNumber(x, Array.length);
 			
-			System.out.println("\n"+x+". elemanin ikili tabanda gosterimi ");
+			// System.out.println("\n"+x+". elemanin ikili tabanda gosterimi ");
 			
 			for(y = 0 ; y < binaryValues_of_SubSets.length ; y++) {
 				
