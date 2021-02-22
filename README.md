@@ -43,4 +43,4 @@ sadece belli bir kısmı üzerinde inceleyelim,
 ![5](https://user-images.githubusercontent.com/49997690/108648424-41bd2f80-74cc-11eb-9909-69ed561fb66d.PNG)
 
 satırlarda gördüğümüz gibi , ana kümemiz 8 elemanlı olduğu için binary sayılarımızıda 8 basamak olarak gösterdik.
-ilk satırda, 1. 2. 3. 4. 5. ve 8. indexlerde eleman 1. yani ana kümemizden 1. 2. 3. 4. 5. ve 8. indexlerde bulunan değerleri çekip bir alt küme oluşturacağız. oluşturduğumuz alt küme ise {44,66,77,33,22,99} elemanlarından oluşur.
+ilk satırda, 1. 2. 3. 4. 5. ve 8. indexlerde eleman 1'dir . yani ana kümemizden 1. 2. 3. 4. 5. ve 8. indexlerde bulunan değerleri çekip bir alt küme oluşturacağız. oluşturduğumuz alt küme ise {44,66,77,33,22,99} elemanlarından oluşur.
