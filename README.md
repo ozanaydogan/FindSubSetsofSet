@@ -44,3 +44,6 @@ sadece belli bir kısmı üzerinde inceleyelim,
 
 satırlarda gördüğümüz gibi , ana kümemiz 8 elemanlı olduğu için binary sayılarımızıda 8 basamak olarak gösterdik.
 ilk satırda, 1. 2. 3. 4. 5. ve 8. indexlerde eleman 1'dir . yani ana kümemizden 1. 2. 3. 4. 5. ve 8. indexlerde bulunan değerleri çekip bir alt küme oluşturacağız. oluşturduğumuz alt küme ise {44,66,77,33,22,99} elemanlarından oluşur.
+
+
+Ozan Aydoğan Kocaeli Üniversitesi
