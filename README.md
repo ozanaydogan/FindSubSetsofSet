@@ -27,3 +27,11 @@ burada 1'den 32 ye kadar tüm sayıların binary gösterimi varıdr. fakat bu g�
 
 peki neden böyle gösteriyoruz. sebebi ise, 00001'den 11111 e kadar olan tüm sayılarda (31 tane sayı olur. 00000 boş kümeyi gösterir. algoritmaya elbette buda dahil), 1 olan indexleri, anakümemizden eleman olarak çekip alt kümeleri oluşturmak.
 
+![5](https://user-images.githubusercontent.com/49997690/108647815-9eb7e600-74ca-11eb-9dce-25aca931aafa.PNG)
+
+ilk satırda görüldüğü gibi 00001 = 5 olarak gösterdim, çünkü 00001'de 1 olan indexler sadece 5. indextir. bizde anakümenin 5. indexindeki değeri alıp, bundan alt küme oluşturacağız.
+
+01010 = 4,2 olarak gösterdim. sebebi ise 2. ve 4. indexin değerleri 1. anakümemizden 2. ve 4. indexteki değerli çekip bunlarla birlikte bir alt küme oluşturacağız.
+
+en son satıra bakarsak, 00000 binary gösteriminde hiç 1 değeri yok. yani anakümemizden çekebileceğimiz bir indexte yok. bu sebepten dolayı bu durum boş kümeyi gösterir.
+
