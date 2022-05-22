@@ -5,6 +5,8 @@ Bu kodun algoritması sadece integer dizinin alt kümelerini bulmak için değil
 
 Kodun algoritmasını anlatımı:
 
+ilk olarak dikkat etmemiz gereken nokta, herhangi bir kümede herhangi bir elemandan 2 defa veya daha fazla sayıda bulunmamasıdır. yani bir veri topluluğuna matematiksel olarak küme diyebilmemiz için, içinde bulunan verilerin en fazla 1 kere bulunması gerekir.
+
 Yazdığım kodda girdi olarak {1,2,3,4,5} dizisini aldım.
 
 bilindiği gibi herhangi bir kümenin alt küme sayısını 2^n (n = küme eleman sayısı) ile buluyorduk.
